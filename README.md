@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/kilymax/weathercheck">
-    <img src="/public/icons/logo.svg" alt="Logo" width="120" height="120">
+    <img src="/public/icons/logo.svg" alt="Logo" width="120">
   </a>
 </div>
 
@@ -31,11 +31,11 @@
 
 ## About The Project
 
-An application for displaying the weather forecast for a given city. There is a limited list of cities from the drop-down list of the search bar, but you can also get weather information from anywhere in the world. Data source - [OpenWeatherMap API](https://openweathermap.org/api).
+An SPA application for displaying the weather forecast for a given city. There is a limited list of cities from the drop-down list of the search bar, but you can also get weather information from anywhere in the world. Data source - [OpenWeatherMap API](https://openweathermap.org/api).
 
 <!-- Demo video on YouTube [here](https://www.youtube.com/watch?v=zFkFrKvdz_w&list=PL4lVqWiqXeK15HICGgnRiJTThgfftHEyt&index=4) -->
 
-You can also take a look at [WeatherCheck]($$$)
+You can also take a look at this app deployed on Vercel – [WeatherCheck](https://weathercheck-eight.vercel.app/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -46,6 +46,7 @@ You can also take a look at [WeatherCheck]($$$)
 - BEM
 - Node.js (v20.9.0)
 - Nuxt 3
+- TS / JS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,4 +79,4 @@ Project Link: [WeatherCheck](https://github.com/kilymax/weathercheck)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-© 2022 GitHub, Inc.
+© 2025 GitHub, Inc.
