@@ -1,0 +1,29 @@
+@use "helpers" as *;
+
+:root {
+    // colors
+    --color-light: #FFFFFF;
+    --color-dark-major: #161B30;
+    --color-dark-minor: #2A2F45;
+
+    --color-cards: #292E44; // карточки городов
+    --color-dropdown-list: #30354B; // 
+    --color-text: #8A91AB; // текст
+
+    --color-accent: #2B3973;
+
+    --radial-gradient-bg: radial-gradient(80.36% 80.36% at top, #5a607c 0%, var(--color-dark-major) 100%);
+    --linear-gradient-text: linear-gradient(180deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+
+    --header-height: #{rem(65)};
+
+    // fonts
+    --font-family-base: "SF Pro Display", sans-serif;
+
+    // container
+    --container-width: #{rem(1152)};
+    --container-padding-x: #{rem(24)};
+
+    // animation
+    --transition-duration: 0.3s;
+}

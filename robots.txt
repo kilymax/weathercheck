@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /*.xml$
+Disallow: /*.json$
+Disallow: /api/
+
+Sitemap: https://test-9qvg.vercel.app/sitemap.xml

@@ -1,0 +1,71 @@
+@use "helpers" as *;
+
+html {
+    &.is-lock {
+        overflow: hidden;
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family-base);
+    font-size: rem(16);
+    font-weight: 400;
+    color: var(--color-text);
+    background-color: var(--color-dark-major);
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+    flex-grow: 1;
+    height: 100%;
+}
+
+a,
+button,
+label,
+input,
+textarea,
+select,
+svg * {
+    transition-duration: var(--transition-duration);
+}
+
+a {
+    color: inherit;
+    
+    @include hover {
+        color: var(--color-light) !important;
+    }
+
+    &[class] {
+        text-decoration: none;
+    }
+}
+
+:focus-visible {
+    outline: rem(2) dashed var(--color-light);
+    outline-offset: rem(4);
+    transition-duration: 0s !important;
+}
+
+button {
+    @include hover {
+        svg {
+            color: var(--color-light);
+            transition-duration: var(--transition-duration);
+        }
+    }
+
+    svg {
+        color: var(--color-text);
+        transition-duration: var(--transition-duration);
+    }
+    
+    &[aria-label] {
+        position: relative;
+    }
+}
